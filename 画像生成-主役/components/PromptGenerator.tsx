@@ -313,7 +313,7 @@ const PromptGenerator: React.FC = () => {
 
       {/* Result Area */}
       {generatedPrompt && (
-        <div className="bg-slate-800 border border-slate-700 rounded-xl p-6 shadow-2xl animate-in fade-in slide-in-from-bottom-10">
+        <div className="bg-slate-800 border border-slate-700 rounded-xl p-6 shadow-2xl animate-fade-in-up">
           <div className="flex items-center justify-between mb-4">
             <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400 flex items-center gap-2">
               <Sparkles className="text-indigo-400" />
